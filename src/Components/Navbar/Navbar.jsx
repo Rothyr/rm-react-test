@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import SatelLogo from './SatelLogo.jsx';
-import SelectValueForm from './SelectValueForm.jsx';
+import SatelLogo from './SatelLogo';
+import SelectValueForm from './SelectValueForm';
 
 // Navbar Component
 

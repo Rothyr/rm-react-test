@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import Navbar from './Navbar.jsx';
-import LoadingAnimation from './LoadingAnimation.jsx'
+import Navbar from './Components/Navbar/Navbar';
+import LoadingAnimation from './LoadingAnimation'
 
 // App Component
 
