@@ -6,10 +6,17 @@ class LogInOutBtn extends Component {
     this.state = {};
   }
 
+  changeTheTextOnLogBtn = event => {
+    this.setState({
+      buttonText: event.target.value
+    });
+  }
+
   render() {
+    const { buttonText } = this.state;
     return (
       <div className="user-actions">
-        <a id="" className="btn btn-primary btn-lg btn-logout btn-satel" href="/test/logout"> Log Out</a>
+        <a id={ buttonText } className="btn btn-primary btn-lg btn-logout btn-satel" href="/test/logout"> Log Out</a>
       </div>
     )
   }
