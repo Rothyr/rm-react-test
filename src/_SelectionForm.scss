@@ -1,0 +1,36 @@
+/////////////////////
+// SELECTION FORM //
+///////////////////
+.api-actions, .user-actions {
+  display:flex;
+  justify-content: center;
+  padding-top: 2vh;
+}
+
+.user-actions {
+  float: right;
+}
+
+#form {
+  display: inline-flex;
+  width: 45vw;
+}
+
+.backContainer {
+  background-color: white;
+  margin-top: 1vh;
+  margin-bottom: 3vh;
+  margin-left: 1vw;
+}
+
+#host {
+  width: 8vw;
+}
+
+.inputForm {
+  width: 20vw;
+  height: 5vh;
+  margin-right: 1vw;
+}
+
+

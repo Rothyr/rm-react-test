@@ -1,0 +1,11 @@
+{% for title in sorted_list %}
+  <h1>{{ result[title]['title'] }}</h1>
+  <h2>Due date: {{ result[title]['due_date'] }}</h2>
+  {{ result[title]['description']|safe }}
+{% endfor %}
+
+for (title in sorted_list) {
+    <h1>{{ result[title]['title'] }}</h1>
+    <h2>Due date: {{ result[title]['due_date'] }}</h2>
+    {{ result[title]['description']|safe }}
+}
