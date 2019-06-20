@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Navbar from './Components/Navbar/Navbar';
-import LoadingAnimation from './LoadingAnimation'
+import LoadingAnimation from './Components/Animation/LoadingAnimation';
+import WelcomeMessage from './Components/Welcome Message/WelcomeMessage';
 
 // App Component
 
@@ -15,6 +16,7 @@ class App extends Component {
       <div>
         <Navbar /> 
         <LoadingAnimation />
+        <WelcomeMessage />
       </div>
     )
   }

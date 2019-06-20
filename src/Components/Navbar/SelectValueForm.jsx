@@ -3,7 +3,6 @@ import SelectDropdownValue from './SelectDropdownValue';
 import InputField from './InputField';
 import SubmitBtn from './SubmitBtn';
 import ClearBtn from './ClearBtn';
-import LogInOutBtn from './LogInOutBtn';
 
 class SelectValueForm extends Component {
   constructor(props) {
@@ -29,7 +28,6 @@ class SelectValueForm extends Component {
           <InputField selectedValue={selectedValue} />
           <SubmitBtn />
           <ClearBtn />
-          <LogInOutBtn />
         </form>
       </div>
     )

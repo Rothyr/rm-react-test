@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import SatelLogo from './SatelLogo';
 import SelectValueForm from './SelectValueForm';
+import LogInOutBtn from './LogInOutBtn';
 
 // Navbar Component
 
@@ -20,6 +21,9 @@ class Navbar extends Component {
           </div>
           <div className="w3-bar-item w3-mobile">
             <SelectValueForm />
+          </div>
+          <div className="w3-bar-item w3-mobile">
+            <LogInOutBtn />
           </div>
         </div>
       </div>
