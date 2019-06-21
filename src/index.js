@@ -71,24 +71,6 @@ const app = document.getElementById('app');
 // }
 
 
-// function WelcomeMessage() {
-//   if (user === "logged-in") {
-//     return (
-//       <div className="info-container">
-//         <h2 className="w3-animate-opacity" id="infoTitle">Welcome to Satel Roadmapper </h2>
-//         <h4 className="w3-animate-opacity" id="infoText"> Please use the Github or Jira buttons above to search for either a Github repo or a Jira project </h4>
-//       </div>
-//     )
-//   } else {
-//     return (
-//       <div className="info-container">
-//         <h2 className="w3-animate-opacity" id="infoTitle"> Welcome to Satel Roadmapper </h2>
-//         <h4 className="w3-animate-opacity" id="infoText"> Please log in to continue. </h4>
-//       </div>
-//     )
-//   }
-// }
-
 
 // RENDERING AREA //
 
