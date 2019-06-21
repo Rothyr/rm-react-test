@@ -34,4 +34,4 @@ class SelectValueForm extends Component {
   }
 }
 
-export  default SelectValueForm;
+export default SelectValueForm;

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Navbar from './Components/Navbar/Navbar';
-import LoadingAnimation from './Components/Animation/LoadingAnimation';
-import WelcomeMessage from './Components/Welcome Message/WelcomeMessage';
+import LoadingAnimation from './Components/MainBody/LoadingAnimation';
+import WelcomeMessage from './Components/MainBody/WelcomeMessage';
 
 // App Component
 
