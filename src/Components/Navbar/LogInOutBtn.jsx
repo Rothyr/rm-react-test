@@ -23,9 +23,7 @@ class LogInOutBtn extends Component {
   }
 
   render() {
-    const { buttonId } = this.state;
-    const { buttonText } = this.state;
-    const { hrefLink } = this.state;
+    const { buttonId, buttonText, hrefLink } = this.state;
     return (
       <div className="user-actions">
         <a id={`${buttonId}`} onClick={this.changeBtnAttributes} className="btn btn-primary btn-lg btn-logout btn-satel" href={hrefLink}> {buttonText} </a>
