@@ -27,7 +27,6 @@ class WelcomeMessage extends Component {
       const { showOrHide } = this.state;
       return (
          <div className={`info-container ${showOrHide}`}>
-            {this.state.position}
             <h2 className="w3-animate-opacity" id="infoTitle"> { welcomeTitle } </h2>
             <h4 className="w3-animate-opacity" id="infoText"> { welcomeSubText } </h4>
          </div>
