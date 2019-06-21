@@ -9,11 +9,11 @@ class InputField extends Component {
     };
   }
   render() {
-    const { selectedValue } = this.props ;
+    const { selectedValue } = this.props;
     console.log({ selectedValue })
     return (
       <div>
-        <input id={ selectedValue } className="inputForm" type="text" name={ selectedValue } />
+        <input id={ selectedValue } className={` inputForm `} type="text" name={ selectedValue } />
       </div>
     );
   }

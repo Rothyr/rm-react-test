@@ -6,7 +6,8 @@ class LogInOutBtn extends Component {
     this.state = {
       buttonId: "qsLoginBtn",
       buttonText: "Log In",
-      hrefLink: "/test/login"
+      hrefLink: "/test/login",
+      userLoggedIn: false
     };
   }
 
@@ -15,13 +16,14 @@ class LogInOutBtn extends Component {
 
   changeBtnAttributes = (e) => {
     e.preventDefault();
-    this.setState({
-      buttonId: "qsLogout",
-      buttonText: "Log Out",
-      hrefLink: "/test/logout"
-    });
+      this.setState({
+        buttonId: "qsLogout",
+        buttonText: "Log Out",
+        hrefLink: "/test/logout",
+        userLoggedIn: true
+      })
   }
-
+  
   render() {
     const { buttonId, buttonText, hrefLink } = this.state;
     return (

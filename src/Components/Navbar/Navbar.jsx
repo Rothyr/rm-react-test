@@ -9,9 +9,16 @@ class Navbar extends Component {
   constructor() {
     super();
     this.state = {
-
+      userLoggedIn: false
     };
   }
+
+  // loginBtnClicked = () => {
+  //   this.setState({
+  //     userLoggedIn: true
+  //   })
+  // }
+
   render() {
     return (
       <div>
@@ -23,7 +30,7 @@ class Navbar extends Component {
             <SelectValueForm />
           </div>
           <div className="w3-bar-item w3-mobile bar-right">
-            <LogInOutBtn />
+            <LogInOutBtn  />
           </div>
         </div>
       </div>

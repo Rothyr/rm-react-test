@@ -8,14 +8,14 @@ class SelectValueForm extends Component {
   constructor(props) {
     super(props);
     this.state = { 
-      selectedValue: 'repo',
+      selectedValue: '',
     };
 
   }
 
-  changeTheSelection = event => {
+  changeTheSelection = (e) => {
     this.setState({
-      selectedValue: event.target.value
+      selectedValue: e.target.value
     });
   }
 
