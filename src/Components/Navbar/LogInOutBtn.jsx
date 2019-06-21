@@ -3,20 +3,32 @@ import React, { Component } from 'react';
 class LogInOutBtn extends Component {
   constructor(props) {
     super(props);
-    this.state = {};
+    this.state = {
+      buttonId: "qsLoginBtn",
+      buttonText: "Log In",
+      hrefLink: "/test/login"
+    };
   }
 
-  changeTheTextOnLogBtn = event => {
+  componentDidMount() {
+  }
+
+  changeText = (e) => {
+    e.preventDefault();
     this.setState({
-      buttonText: event.target.value
+      buttonId: "qsLogout",
+      buttonText: "Log Out",
+      hrefLink: "/test/logout"
     });
   }
 
   render() {
+    const { buttonId } = this.state;
     const { buttonText } = this.state;
+    const { hrefLink } = this.state;
     return (
       <div className="user-actions">
-        <a id={ buttonText } className="btn btn-primary btn-lg btn-logout btn-satel" href="/test/logout"> Log Out</a>
+        <a id={`${buttonId}`} onClick={this.changeText} className="btn btn-primary btn-lg btn-logout btn-satel" href={hrefLink}> {buttonText} </a>
       </div>
     )
   }
