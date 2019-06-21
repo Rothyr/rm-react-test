@@ -16,13 +16,13 @@ class Navbar extends Component {
     return (
       <div>
         <div className="w3-bar w3-light-grey">
-          <div className="w3-bar-item w3-mobile">
+          <div className="w3-bar-item w3-mobile bar-left">
             <SatelLogo />
           </div>
-          <div className="w3-bar-item w3-mobile">
+          <div className="w3-bar-item w3-mobile bar-middle">
             <SelectValueForm />
           </div>
-          <div className="w3-bar-item w3-mobile">
+          <div className="w3-bar-item w3-mobile bar-right">
             <LogInOutBtn />
           </div>
         </div>

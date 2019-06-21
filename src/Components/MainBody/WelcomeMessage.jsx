@@ -15,7 +15,7 @@ class WelcomeMessage extends Component {
    componentDidMount() {
       setTimeout(
          function () {
-            this.setState({ showOrHide: "visible" });
+            this.setState({ showOrHide: "" });
          }
             .bind(this), 2500
       );

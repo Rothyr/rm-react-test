@@ -4,7 +4,7 @@ class LoadingAnimation extends Component {
   constructor() { 
     super();
     this.state = {
-      showOrHide: "visible"
+      showOrHide: ""
     };
   }
 
