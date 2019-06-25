@@ -13,7 +13,7 @@ class LogInOutBtn extends Component {
 
   componentDidMount() {
   }
-
+  
   changeBtnAttributes = (e) => {
     e.preventDefault();
       this.setState({
@@ -26,6 +26,7 @@ class LogInOutBtn extends Component {
   
   render() {
     const { buttonId, buttonText, hrefLink } = this.state;
+  
     return (
       <div className="user-actions">
         <a id={`${buttonId}`} onClick={this.changeBtnAttributes} className="btn btn-primary btn-lg btn-logout btn-satel" href={hrefLink}> {buttonText} </a>

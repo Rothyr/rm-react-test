@@ -6,18 +6,13 @@ import LogInOutBtn from './LogInOutBtn';
 // Navbar Component
 
 class Navbar extends Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
     this.state = {
-      userLoggedIn: false
+    
     };
   }
 
-  // loginBtnClicked = () => {
-  //   this.setState({
-  //     userLoggedIn: true
-  //   })
-  // }
 
   render() {
     return (
@@ -30,7 +25,7 @@ class Navbar extends Component {
             <SelectValueForm />
           </div>
           <div className="w3-bar-item w3-mobile bar-right">
-            <LogInOutBtn  />
+            <LogInOutBtn />
           </div>
         </div>
       </div>
